@@ -1,4 +1,6 @@
 Proyrails::Application.routes.draw do
+  get "usuario/index"
+
   get "estatico/about"
 
   get "estatico/contact"
