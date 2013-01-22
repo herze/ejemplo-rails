@@ -1,4 +1,7 @@
 Proyrails::Application.routes.draw do
+  resources :productos
+
+
   get "usuario/index"
 
   get "estatico/about"
